@@ -13,7 +13,7 @@
   "routes": [
     {
       "src": "/api/save-result",
-      "methods": ["POST"],
+      "methods": ["POST", "OPTIONS"],
       "dest": "/api/save-result.js"
     },
     {
