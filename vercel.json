@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/save-result.js",
+      "src": "api/submit.js",
       "use": "@vercel/node"
     },
     {
@@ -12,9 +12,9 @@
   ],
   "routes": [
     {
-      "src": "/api/save-result",
+      "src": "/api/submit",
       "methods": ["POST", "OPTIONS"],
-      "dest": "/api/save-result.js"
+      "dest": "/api/submit.js"
     },
     {
       "src": "/(.*)",
