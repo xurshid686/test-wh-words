@@ -2,7 +2,7 @@
   "name": "wh-words-test",
   "version": "1.0.0",
   "description": "English Wh-words test for students",
-  "main": "api/save-result.js",
+  "main": "api/submit.js",
   "scripts": {
     "dev": "vercel dev"
   },
