@@ -1,0 +1,15 @@
+{
+  "name": "wh-words-test",
+  "version": "1.0.0",
+  "description": "English Wh-words test for students",
+  "main": "api/save-result.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
